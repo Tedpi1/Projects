@@ -104,17 +104,19 @@ body{
     transform: scale(1);
     }
 }
-.close-btn i{
-    position: absolute;
-    height: 1rem;
-    font-size: 1.5rem;
+.close-btn {
+    font-size: 1.75rem;
+    background: transparent;
+    border-color: transparent;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
     cursor: pointer;
     color: var(--clr-red-dark);
-    border: 0;
-    margin-left: 10rem;
-    margin-top: 1rem;
-    margin-bottom: 10rem;
-}
+  }
+  .close-btn:hover {
+    color: var(--clr-red-light);
+    transform: rotate(360deg);
+  }x
 .logo{
     margin-top: 3rem;
 }
@@ -122,16 +124,7 @@ body{
     height: 15rem;
     transition: var(--transition);
     overflow: hidden;
-}
-links ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+} 
 .links li{
     list-style-type: none;
 }
