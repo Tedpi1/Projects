@@ -74,6 +74,7 @@ body{
     padding: 1rem;
     transition: var(--transition);
     transform: translate(-100%);
+    overflow: hidden;
 }
 .show-sidebar{
     transform: translate(0);
