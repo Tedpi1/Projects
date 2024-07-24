@@ -151,9 +151,11 @@ ul {
     .git-img{
         margin-top: 15rem;
         height: 10rem;
-        margin-left: 0;
+        margin-left: 5rem;
+
     }
     .git-img img{
+
         height: 10rem;
     }
     .deadline{
@@ -165,16 +167,26 @@ ul {
         margin-top: 5rem;
     }
     .deadline{
-        
-        margin-top: 10rem;
+        margin: 2rem;
+        margin-top: 7rem;
     }
     .gift-info{
         margin-left: 0;
     }
     .deadline-format{
         margin-top: 10rem;
-        margin-left: 0;
         font-size: 1.5rem;
+        padding: 0rem;
+
+    }
+    .deadline-format h2{
+        font-size: 1rem;
+        align-items: center;
+        margin: 1rem;
+    }
+    .deadline-format span{
+        font-size: small;
+        margin: 1rem;
     }
     .section-center{
         flex-direction: column;
